@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Cookie', cursive;
 }
 .header{
     min-height: 100vh;
@@ -78,6 +78,7 @@ nav img{
     background: transparent;
     position: relative;
     cursor: pointer;
+    margin: 0.2% 0.2% 0.5%;
 }
 .hero-btn:hover{
     border: 1px solid #fff;
@@ -175,6 +176,7 @@ h3{
 }
 .campus-col img{
     width: 100%;
+    display: block;
 }
 .layer{
     background: transparent;
@@ -189,5 +191,34 @@ h3{
     background: rgba(226,0,0,0.7);
 }
 .layer h3{
+    width: 100%;
+    font-weight: 500;
     color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+.facilities{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities-col img{
+    width: 100%;
+    border-radius: 10px;
 }
