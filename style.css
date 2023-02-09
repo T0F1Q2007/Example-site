@@ -68,6 +68,20 @@ nav img{
 .text-box h1{
     font-size: 62px;
 }
+.text-box h1 font{
+    color: #00ffff;
+    border-radius: 10px;
+}
+.text-box h1 font:hover{
+    background-color: #000;
+    color: #7fff00;
+    transition: 1.5s;
+}
+.down a{
+    background-color: transparent;
+    color: transparent;
+    text-decoration: #000;
+}
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -235,4 +249,11 @@ h3{
     margin: auto;
     padding-top: 100px;
     text-align: center;
+}
+.testimonial-col{
+    border-radius: 50%;
+}
+.testimonial-col-ME img{
+    border-radius: 50%;
+    width: 80%;
 }
