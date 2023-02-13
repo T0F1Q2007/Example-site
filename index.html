@@ -17,7 +17,7 @@
                 <a href="index.html">
                     <img src="images/win11.png" alt="logo" align="left">
                 </a>
-                <a class="allogins">Logins: <span id="logns">0</span></a>
+                <a class="allogins">logins: <span id="logns">0</span></a>
                 <div class="nav-links" id="navLinks">
                     <span class="fa material-symbols-outlined" onclick="hideMenu()">menu</span>
                     <ul>
@@ -162,6 +162,9 @@
             var logns = localStorage.getItem("logns") || 0;
             counterElement.innerHTML = logns;
             localStorage.setItem("logns", ++logns);
+            window.onload = function() {
+                alert("This's a tutorial site. All rights reserved 2023©");
+            };
         </script>
     </body>
 </html>
