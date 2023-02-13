@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="refresh" content="15">
+        <meta http-equiv="refresh" content="45">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Web-Server</title>
         <link rel="stylesheet" href="style.css">
@@ -16,6 +17,7 @@
                 <a href="index.html">
                     <img src="images/win11.png" alt="logo" align="left">
                 </a>
+                <a class="allogins">Logins: <span id="logns">0</span></a>
                 <div class="nav-links" id="navLinks">
                     <span class="fa material-symbols-outlined" onclick="hideMenu()">menu</span>
                     <ul>
@@ -156,6 +158,10 @@
             function hideMenu(){
                 navLinks.style.right = "-200px";
             }
+            var counterElement = document.getElementById("logns");
+            var logns = localStorage.getItem("logns") || 0;
+            counterElement.innerHTML = logns;
+            localStorage.setItem("logns", ++logns);
         </script>
     </body>
 </html>
