@@ -22,7 +22,8 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width: 50px;
+    background-color: transparent;
 }
 .nav-links{
     flex: 1;
@@ -83,15 +84,12 @@ nav img{
     cursor: pointer;
 }
 .hackstyle{
-    font-family: 'Space Mono', monospace;
-    font-size: clamp(3rem, 10vw, 10rem);
-    color: white;
-    padding: 0rem clamp(1rem, 2vw, 3rem);
-    border-radius: clamp(0.4rem, 0.75vw, 1rem);
+    margin-top: 50px;
 }
 .hackstyle:hover{
-    background-color: white;
-    color: black;
+    color: #c55;
+    border-radius: clamp(5.4rem, 4.75vw, 2rem);
+    background: rgba(51, 204, 102, 0.507);
 }
 .down a{
     background-color: transparent;
