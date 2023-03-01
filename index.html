@@ -31,7 +31,8 @@
                 <span class="fa material-symbols-outlined" onclick="showMenu()">menu</i>
             </nav>
             <div class="text-box">
-                <h1>Created by <font>Tof1q</font></h1>
+                <h1 data-value="Created by Tofiq" >Created by <font data-value="Tof1q">Tofiq</font></h1>
+                <h5>HYPERPLEXED</h5>
                 <p>Made with VS code & Github</p>
                 <a href="https://www.youtube.com/watch?v=P6YQUAWJbwc&t=0s" class="hero-btn">Conitinue the video</a>
                 <a href="https://t0f1q2007.github.io/Example-site/" class="hero-btn">Open public version</a>
@@ -153,21 +154,6 @@
                 <span class="git material-symbols-outlined">account_circle</span>
             </div>
         </section>
-        <script>
-            var navLinks = document.getElementById("navLinks");
-            function showMenu(){
-                navLinks.style.right = "0";
-            }
-            function hideMenu(){
-                navLinks.style.right = "-200px";
-            }
-            var counterElement = document.getElementById("logns");
-            var logns = localStorage.getItem("logns") || 0;
-            counterElement.innerHTML = logns;
-            localStorage.setItem("logns", ++logns);
-            window.onload = function() {
-                alert("This's a tutorial site. All rights reserved 2023©");
-            };
-        </script>
+        <script src="code.js"></script>
     </body>
 </html>
