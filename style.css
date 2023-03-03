@@ -344,6 +344,12 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 }
+.icons .donat{
+  color: #44ff00;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
 .allogins{
     color: #0f8f0f;
 }
@@ -426,6 +432,12 @@ h3{
 .wrapper .teleGram:hover .tooltip::before {
   background: #fff;
   color: #00ccff;
+}
+.wrapper .donate:hover,
+.wrapper .donate:hover .tooltip,
+.wrapper .donate:hover .tooltip::before {
+  background: #598b8b;
+  color: #f9f600;
 }
 .socialdecor {
   text-decoration: none;
