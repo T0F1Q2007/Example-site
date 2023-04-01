@@ -40,3 +40,16 @@ localStorage.setItem("logns", ++logns);
 window.onload = function() {
     alert("This's a tutorial site. All rights reserved 2023©");
 };
+function checkInput(event) {
+  if (event.keyCode === 13) {
+    var input = document.getElementById("input").value;
+    if (input === "wallet") {
+      var button = document.getElementById("myButton");
+      button.href = "https://bit.ly/mywalled";
+      button.style.display = "block";
+    }
+  }
+  else{
+    alert("Unautohorized!")
+  }
+}

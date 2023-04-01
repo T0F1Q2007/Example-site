@@ -91,6 +91,16 @@ nav img{
     border-radius: clamp(5.4rem, 4.75vw, 2rem);
     background: rgba(51, 204, 102, 0.507);
 }
+.button-from-input{
+    text-decoration: none;
+    color: #44ff00;
+    font-family: 'Madehand', sans-serif;
+}
+.from-input{
+    color: #00d9ff94;
+    background-color: transparent;
+    border: transparent;
+}
 .down a{
     background-color: transparent;
     color: transparent;
