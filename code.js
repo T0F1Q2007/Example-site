@@ -48,8 +48,8 @@ function checkInput(event) {
       button.href = "https://bit.ly/mywalled";
       button.style.display = "block";
     }
-  }
-  else{
-    alert("Unautohorized!")
+    else{
+      alert("Unautohorized!")
+    }
   }
 }
