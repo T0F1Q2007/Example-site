@@ -48,6 +48,11 @@ function checkInput(event) {
       button.href = "https://bit.ly/mywalled";
       button.style.display = "block";
     }
+    else if (input === "music1") {
+      var button = document.getElementById("myButton");
+      button.href = "images/music1.mp3";
+      button.style.display = "block";
+    }
     else{
       alert("Unautohorized!")
     }
